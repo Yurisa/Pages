@@ -155,6 +155,7 @@
 
 .index-panel{
     margin-top: 200px;
+    margin-bottom: 126px;
 }
 
 .index-panel-header{
@@ -256,4 +257,30 @@
     top: 0;
     background-image: url("../../images/delete.png");
     background-size: 26px 24px;
+}
+
+.index-pics{
+    height: 380px;
+    overflow: hidden;
+}
+
+.index-pics .pic-col{
+    float: left;
+}
+
+.index-pics .pic-col-m{
+   width: 349px;
+}
+
+.index-pics .pic-col-s{
+  width: 287px;
+}
+.index-pics .pic-col-l{
+   width: 460px;
+}
+.index-pics img{
+    transition: all 0.5s ease-in-out;
+}
+.index-pics img:hover{
+    transform: scale(1.2, 1.2)
 }
